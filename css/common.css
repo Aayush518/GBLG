@@ -1,0 +1,52 @@
+.h-font{
+    font-family: 'Arbutus', serif;
+}
+
+*{
+    font-family: 'Lora', serif;
+}
+
+
+
+.nav-item{
+    padding-right:30px;
+}
+
+.nav-item a{
+    border: 3px solid transparent;
+}
+
+.nav-item a:hover{
+    border-bottom: 3px solid #F66844;
+}
+
+.nav-head{
+    background: linear-gradient(90deg, #F66844 0%, rgba(255, 146, 27, 0.50) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-1{
+    background: linear-gradient(90deg, #F66844 0%, #FF921B 100%);
+    border-radius: 0px;
+    padding:8px;
+    color:white;
+    border:1 px solid #F66844;
+}
+
+.btn-2{
+    border: 1px solid #F66844;
+    border-radius: 0px;
+    padding:8px;
+    color:white;
+    background-color:transparent;
+}
+
+
+.transform-box{
+    position:absolute;
+    background: linear-gradient(180deg, rgba(57, 57, 57, 0.25) 0%, rgba(57, 57, 57, 0.00) 100%);
+    backdrop-filter: blur(2px);
+}
+
