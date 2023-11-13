@@ -6,29 +6,28 @@
     <a class="navbar-brand fw-bold fs-3 h-font nav-head" href="index.php">FlexGym</a>
 
 
-    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler shadow-none custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ml-auto">
-        <li class="nav-item">
+        <li class="nav-item mb-2">
           <a class="nav-link me-2 text-white" aria-current="page" href="index.php">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link me-2 text-white" href="features.php">Features</a>
+        <li class="nav-item mb-2">
+          <a class="nav-link me-2 text-white" href="bmi-calculator.php">Bmi Calculator</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mb-2">
           <a class="nav-link me-2 text-white" href="pricing.php">Pricing</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mb-2">
           <a class="nav-link text-white" href="contacts.php">Contact</a>
         </li>
           <li class="animation start-home"></li>
         <li class="">
-          <a href="" class="btn btn-1 btn-sm align-items-center text-white">Join Us</a>
+          <a href="join-us.php?login=0" class="btn btn-1 btn-sm align-items-center text-white">Join Us</a>
         </li>
       </ul>
-      <div class="animation start-home"></div>
     </div>
   </div>
 </nav>
